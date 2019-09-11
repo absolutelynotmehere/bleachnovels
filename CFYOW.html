@@ -43,7 +43,7 @@
 					<h1 class="codrops-header__title">"Can't Fear Your Own World" Collaboration</h1>
 					<div class="codrops-links">
 						<a class="github" href="/bleachnovels/">Bleach</a>
-						<a class="codrops-icon codrops-icon--prev" href="#back" title="Previous">
+						<a class="codrops-icon codrops-icon--prev" onclick="back()" title="Previous">
 							<svg class="icon icon--arrow">
 								<use xlink:href="#icon-arrow"></use>
 							</svg>
@@ -274,5 +274,10 @@
 		<script src="js/charming.min.js"></script>
 		<script src="js/TweenMax.min.js"></script>
 		<script src="js/DiagonalSlideshow.js"></script>
+		<script>
+      		function back(){
+          		history.back();
+      		}
+  		</script>
 	</body>
 </html>
