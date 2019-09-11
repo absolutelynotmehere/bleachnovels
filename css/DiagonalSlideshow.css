@@ -370,8 +370,8 @@ a:focus {
 }
 
 .download {
-	align-items: right;
-	margin-right: auto;
+	text-align: right;
+	right: 1;
 	font-size: 0.7rem;
 }
 
@@ -482,7 +482,6 @@ a:focus {
 }
 
 
-ag
 }
 
 
