@@ -310,7 +310,7 @@ main {
 .grid--layout-1 .grid__item:nth-child(6) {grid-area: 10 / 5 / 13 / 2;}
 .grid--layout-1 .grid__item:nth-child(7) {grid-area: 12 / 9 / 10 / 11;}
 .grid--layout-1 .grid__item:nth-child(8) {grid-area: 7 / 9 / 10 / 11;}
-.grid--layout-1 .grid__item:nth-child(9) {grid-area: 10 / 5 / 17 / 9;}
+.grid--layout-1 .grid__item:nth-child(9) {grid-area: 10 / 5 / 16 / 9;}
 
 
 /* Layout 2 */
@@ -465,4 +465,24 @@ main {
 		font-size: 1.5rem;
 		padding: 10vh 1rem;
 	}
+}
+
+/* -----
+SVG Icons - svgicons.sparkk.fr
+----- */
+
+.svg-icon {
+  width: 1em;
+  height: 1em;
+}
+
+.svg-icon path,
+.svg-icon polygon,
+.svg-icon rect {
+  fill: #ffffff;
+}
+
+.svg-icon circle {
+  stroke: #fff;
+  stroke-width: 1;
 }
