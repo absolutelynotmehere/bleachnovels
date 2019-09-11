@@ -122,22 +122,12 @@ a:focus {
 	justify-content: space-between;
 }
 
-.codrops-header__links a {
-	display: inline-block;
-	text-transform: lowercase;
-}
-
-.codrops-header__links a:nth-child(2) {
-	margin: 0 0.5rem;
-}
-
 .codrops-header__title {
 	font-size: 1rem;
 	font-weight: normal;
 	line-height: 1;
 	margin: 0;
 }
-
 
 /* Top Navigation Style */
 .codrops-links {
@@ -490,6 +480,11 @@ a:focus {
 		text-align: justify;
 	}
 }
+
+
+ag
+}
+
 
 
 
