@@ -462,14 +462,14 @@ main {
 		--gridheight: 1100px;
 	}
 	.content__item {
-		font-size: 1.5rem;
+		font-size: 1.2rem;
 		padding: 10vh 1rem;
+		
 	}
 	
 	.quote {
 		font-size: 1rem;
 		font-style: italic;
-		padding: 5vh 0.7rem;
 		
 	}
 }
