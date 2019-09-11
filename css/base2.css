@@ -312,11 +312,11 @@ main {
 
 /* Layout 2 */
 .grid--layout-2 .grid__item:first-child { grid-area: 2 / 1 / 5 / 4; }
-.grid--layout-2 .grid__item:nth-child(2) { grid-area: 1 / 4 / 4 / 7; }
+.grid--layout-2 .grid__item:nth-child(2) { grid-area: 1 / 4 / 3 / 7; }
 .grid--layout-2 .grid__item:nth-child(3) {grid-area: 1 / 7 / 5 / 10;}
 .grid--layout-2 .grid__item:nth-child(4) {grid-area: 5 / 1 / 7 / 4;}
-.grid--layout-2 .grid__item:nth-child(5) {grid-area: 4 / 4 / 7 / 7;}
-.grid--layout-2 .grid__item:nth-child(6) {grid-area: 7 / 7 / 11 / 4;}
+.grid--layout-2 .grid__item:nth-child(5) {grid-area: 3 / 4 / 8 / 7;}
+.grid--layout-2 .grid__item:nth-child(6) {grid-area: 8 / 7 / 10 / 4;}
 .grid--layout-2 .grid__item:nth-child(7) {grid-area: 5 / 7 / 8 / 11;}
 .grid--layout-2 .grid__item:nth-child(8) {grid-area: 7 / 2 / 9 / 4;}
 
@@ -334,10 +334,10 @@ main {
 /* Layout 4 */
 .grid--layout-4 .grid__item:first-child {grid-area: 2 / 1 / 4 / 4;}
 .grid--layout-4 .grid__item:nth-child(2) {grid-area: 1 / 4 / 3 / 7;}
-.grid--layout-4 .grid__item:nth-child(3) {grid-area: 3 / 4 / 5 / 7;}
+.grid--layout-4 .grid__item:nth-child(3) {grid-area: 3 / 4 / 8 / 7;}
 .grid--layout-4 .grid__item:nth-child(4) {grid-area: 1 / 7 / 4 / 11;}
 .grid--layout-4 .grid__item:nth-child(5) {grid-area: 4 / 2 / 7 / 4;}
-.grid--layout-4 .grid__item:nth-child(6) {grid-area: 5 / 7 / 8 / 4;}
+.grid--layout-4 .grid__item:nth-child(6) {grid-area: 7 / 3 / 10 / 4;}
 .grid--layout-4 .grid__item:nth-child(7) {grid-area: 4 / 7 / 8 / 11;}
 .grid--layout-4 .grid__item:nth-child(8) {grid-area: 8 / 9 / 11 / 4;}
 
