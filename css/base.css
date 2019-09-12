@@ -502,6 +502,7 @@ position: relative;
 .tooltip span {
  margin-left: -999em;
  position: absolute;
+ background: #343233;
 }
 .tooltip:hover span {
     border-radius: 5px 5px;
