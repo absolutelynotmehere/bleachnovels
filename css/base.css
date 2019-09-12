@@ -305,7 +305,7 @@ main {
   height: 150px;
   font-size: 1.1rem;
 	font-weight: 300;
-	color: #efdab9;
+	color: #efdab9;
 }
 
 .truyen  quotes {
@@ -313,7 +313,7 @@ main {
 }
 .truyen a {
 	color: #ffd152;
-	
+
 }
 /* grid-area : grid-row-start / grid-column-start / grid-row-end / grid-column-end, */
 
