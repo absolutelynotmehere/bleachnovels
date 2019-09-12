@@ -268,7 +268,7 @@ main {
 	grid-template-columns: repeat(10,calc(var(--gridwidth) / 10 - var(--gridgap)));
 	grid-gap: var(--gridgap);
 	align-content: center;
-    justify-content: center;
+  justify-content: center;
 }
 
 .grid__item {
@@ -300,15 +300,19 @@ main {
 
 
 .truyen {
-	truyen-area: 2 / 1 / 3 / 2;
-	color: #efdab9;
+
 	text-align: justify;
 	width: 660px;
   height: 150px;
   font-size: 1.1rem;
 	font-weight: 300;
 
-	}
+}
+
+.truyen p {
+	color: #efdab9;
+
+}
 
 /* grid-area : grid-row-start / grid-column-start / grid-row-end / grid-column-end, */
 
