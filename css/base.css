@@ -504,6 +504,8 @@ position: relative;
  position: absolute;
  background: #343233;
  padding: 0.5em 0.8em 0.8em 2em;
+ font-size: 0.9rem;
+
 }
 .tooltip:hover span {
     border-radius: 5px 5px;
