@@ -11,6 +11,4 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           
-       - name: image-actions
-      uses: calibreapp/image-actions@1.0.0
-
+    
