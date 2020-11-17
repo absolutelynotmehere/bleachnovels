@@ -72,6 +72,22 @@
 		<script src="https://antonthaitran.github.io/bleachnovels/js/TweenMax.min.js"></script>
 		<script src="https://antonthaitran.github.io/bleachnovels/js/AnimatedGridPreviews.js"></script>
 		<script>
+			$('div p').each(function() {
+			    var originalText = this.innerHTML;
+
+				switch(originalText) {
+				case 'Ichibe':
+					var newText = originalText.replace(
+						 /\bIchibe\b/gi,
+						 '<span class=""><img src="https://antonthaitran.github.io/bleachnovels/img/char/Ichibei_profile.png" alt="" height="48" width="48" /><em>Hyōsube Ichibē</em> (兵主部 一兵衛, Hyōsube Ichibē)<br/>Nắm giữ danh hiệu `Monk who calls the real name` (真名呼和尚, Manako Oshō; Viz "High Priest")<br/>Đội trưởng đội 0 cũng là chỉ huy đội bảo vệ hoàng gia Royal Guard</span>'
+					     );
+					break;
+				}
+			    if (originalText !== newText) {
+				this.innerHTML = newText;
+			    }
+			});
+
       		function back(){
           		history.back();
       		}
